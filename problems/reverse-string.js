@@ -1,3 +1,7 @@
+// const Chai = require('chai')
+const { expect } = require('chai')
+
 module.exports = function reverseString(string) {
-  // Your code here
+  return string.split('').reverse().join('');
+
 };
