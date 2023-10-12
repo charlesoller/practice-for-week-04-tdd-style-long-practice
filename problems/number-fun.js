@@ -1,9 +1,12 @@
 function returnsThree() {
-  // Your code here
+  return 3
 }
 
 function reciprocal(n) {
-  // Your code here
+  if (n < 1 || n > 1000000 ) {
+    throw new RangeError("input must be less than 1 or greater than a million");
+  }
+  return 1/n;
 }
 
 module.exports = {
