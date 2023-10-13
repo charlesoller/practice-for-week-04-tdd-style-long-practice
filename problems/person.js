@@ -10,7 +10,6 @@ class Person {
       returnArr.push(person.sayHello());
     })
 
-    console.log(returnArr)
     return returnArr;
   }
 
